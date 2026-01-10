@@ -1,6 +1,6 @@
 # Úkol č. 5
 
-''' PowerShell
+``` PowerShell
 function file_browser {
     $running = $true
     while ($running) {
@@ -59,4 +59,4 @@ function file_browser {
 }
 
 file_browser
-'''
+```
