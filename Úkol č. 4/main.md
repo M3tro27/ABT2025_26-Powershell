@@ -12,7 +12,7 @@ if ($numlock -ne 2) {
 
 # Zadání 2
 
-''' PowerShell
+``` PowerShell
 New-Item -Path "HKCU:\Software" -Name "HratkySPowerShellem"
 $path = "HKCU:\Software\HratkySPowerShellem"
 
@@ -20,4 +20,4 @@ New-ItemProperty -Path $path -Name "AccountName" -Value $env:UserName -PropertyT
 New-ItemProperty -Path $path -Name "ComputerName" -Value $env:ComputerName -PropertyType String
 New-ItemProperty -Path $path -Name "CurrentDate" -Value (Get-Date)
 New-ItemProperty -Path $path -Name "PSVersion" -Value $PSVersionTable.PSVersion.ToString() -PropertyType String
-'''
+```
